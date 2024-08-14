@@ -1,0 +1,70 @@
+.header {
+    background-color: rgb(142, 223, 223);
+    padding: 45px 0; 
+    height: 30px;
+    /* background-image: url('https://stock.adobe.com/in/images/delivery-or-grocery-shopping-healthy-food/335745675'); */
+}
+
+.header nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    float: right;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.header nav ul li a {
+    color: #0c0404; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.header nav ul li a:hover {
+    color: blue;
+}
+
+.profile-icon {
+    position: relative;
+}
+
+.profile-icon .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.profile-icon .dropdown li {
+    float: none;
+}
+
+.profile-icon .dropdown li a {
+    padding: 12px 16px;
+}
+
+.profile-icon:hover .dropdown {
+    display: block;
+}
+
+.image1{
+    margin-top: 100px;
+}
+
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(220, 194, 160);
+}

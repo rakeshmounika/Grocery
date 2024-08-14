@@ -1,0 +1,228 @@
+/* .gro1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+} */
+
+.gro1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+
+.atta {
+    background-color: #ebe1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 260px;
+    height: 280px;
+    display: inline-block;
+}
+
+.atta p{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.atta:hover {
+    transform: scale(1.05);
+}
+
+.atta img {
+    width: 120%;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    margin-top: 20px;
+
+    max-width: 150px; 
+    max-height: 150px; 
+    margin-left: 50px;
+}
+
+.regional{
+   text-align: center;
+}
+
+
+
+
+
+
+/* Regional section styling */
+.regional {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .regional h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Container for Atta section cards */
+  .atta-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  /* Individual Atta cards */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image styling for Atta cards */
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Name styling for Atta cards */
+  .card-name {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Price styling for Atta cards */
+  .card-price {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Quantity control buttons */
+  .card-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  .quantity-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .quantity-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .card-quantity span {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+
+
+/* Additional styling for View More and View Less buttons */
+.view-more-button, .view-less-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .view-more-button:hover, .view-less-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for the atta-container */
+  .atta-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-name {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card-quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .quantity-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+
+
+
+
+
+
